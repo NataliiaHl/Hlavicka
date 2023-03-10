@@ -9,11 +9,13 @@ body {
 .hlavicka {
 	background-color: #3498db;
 	color: white;
+	display: flex;
+	justify-content: space-between;
 }
 
 a {
 	display: block;
-	padding: 5px 15px;
+	padding: 18px 15px;
 	color: white;
 	text-decoration: none;
 }
@@ -21,6 +23,30 @@ a {
 a:hover {
 	background-color: white;
 	color: #3498db;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 20px;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: start;
+	align-items: stretch;
+	height: 100%;
+}
+
+li {
+	list-style-type: none;
+	display: flex;
+}
+
+ul {
+   margin: 0;
 }
 
 /* ---------------------------------------------------- */
